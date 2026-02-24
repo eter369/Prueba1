@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Snake clásico</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="game-shell">
+      <h1>Snake</h1>
+      <p class="hint">Usa las flechas o WASD para mover la serpiente.</p>
+      <section class="hud">
+        <span>Puntuación: <strong id="score">0</strong></span>
+        <span>Récord: <strong id="best-score">0</strong></span>
+      </section>
+      <canvas id="game" width="400" height="400" aria-label="Tablero de Snake"></canvas>
+      <button id="restart" type="button">Reiniciar</button>
+      <p id="status" class="status">Pulsa una tecla para comenzar.</p>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
